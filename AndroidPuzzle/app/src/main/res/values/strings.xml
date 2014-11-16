@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidPuzzle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="congrats">Congratulations! You have escaped and solved all the puzzles.</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <string name="title_activity_scene1">Scene1Activity</string>
+    <string name="title_activity_scene2">Scene2Activity</string>
+    <string name="title_activity_scene3">Scene3Activity</string>
+    <string name="title_activity_scene4">Scene4Activity</string>
+    <string name="title_activity_scene5">Scene5Activity</string>
+    <string name="title_activity_final_scene">FinalSceneActivity</string>
+
+</resources>

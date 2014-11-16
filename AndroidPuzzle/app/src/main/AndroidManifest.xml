@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackathon.androidpuzzle" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.hackathon.androidpuzzle.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.Scene1Activity"
+            android:label="@string/title_activity_scene1" >
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.Scene2Activity"
+            android:label="@string/title_activity_scene2" >
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.Scene3Activity"
+            android:label="@string/title_activity_scene3" >
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.Scene4Activity"
+            android:label="@string/title_activity_scene4" >
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.Scene5Activity"
+            android:label="@string/title_activity_scene5" >
+        </activity>
+        <activity
+            android:name="com.hackathon.androidpuzzle.scene.FinalSceneActivity"
+            android:label="@string/title_activity_final_scene" >
+        </activity>
+
+        <service
+            android:name=".ArduinoListener"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>
